@@ -6,22 +6,22 @@ michael:
   activated: true
   activated_at: <% Time.zone.now %>
 
-jeppe:
-  name: Jeppe Bylov
+archer:
+  name: Sterling Archer
   email: jeppe@bylov.net
   password_digest: <%= User.digest('password') %>
   activated: true
   activated_at: <% Time.zone.now %>
 
-nicklas:
-  name: Nicklas Bylov
+lana:
+  name: Lana 
   email: Nicklas@example.com
   password_digest: <%= User.digest('password') %>
   activated: true
   activated_at: <% Time.zone.now %>
 
-jonas:
-  name: Jonas Bruun Nielsen
+mallory:
+  name: mallory Bruun Nielsen
   email: Jonas@jonasbnielsen.dk
   password_digest: <%= User.digest('password') %>
   activated: true

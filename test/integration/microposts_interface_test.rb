@@ -30,7 +30,7 @@ class MicropostsInterfaceTest < ActionDispatch::IntegrationTest
       delete micropost_path(first_micropost)
     end
     # Visit a different user.
-    get user_path(users(:jeppe))
+    get user_path(users(:archer))
     assert_select 'a', text: 'delete', count: 0
   end
 end
